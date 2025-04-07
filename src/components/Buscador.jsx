@@ -44,7 +44,12 @@ const Buscador = () => {
       { model: 'UJ6500', year: '2017', series: 'Super UHD', available: true },
       { model: 'UJ6300', year: '2017', series: 'Super UHD', available: true },
       { model: 'UJ6200', year: '2017', series: 'Super UHD', available: true },  
-      
+      { model: '43LJ5500-SA', year: '2017', series: 'Super UHD', available: true },  
+      { model: '43LJ5550-SC', year: '2017', series: 'Super UHD', available: true },  
+      { model: '43UJ6200-SA', year: '2017', series: 'Super UHD', available: true },  
+      { model: '43UJ6300-SA', year: '2017', series: 'Super UHD', available: true },
+      { model: '43UN711C0SA', year: '2017', series: 'Super UHD', available: true },
+     
       // 2018 (muestra parcial para mantener el componente conciso)
       { model: 'W8', year: '2018', series: 'OLED W', available: true },
       { model: 'E8', year: '2018', series: 'OLED', available: true },
@@ -64,6 +69,12 @@ const Buscador = () => {
       { model: 'UK6300', year: '2018', series: 'OLED', available: true },
       { model: 'UK6200', year: '2018', series: 'OLED', available: true },
       { model: 'UK6100', year: '2018', series: 'OLED', available: true },
+      { model: '43LK5400PSA', year: '2018', series: 'Super UHD', available: true },
+      { model: '43LK5700PSC', year: '2018', series: 'Super UHD', available: true },
+      { model: '43UK6200PSA', year: '2018', series: 'Super UHD', available: true },
+      { model: '43UK6300PSB', year: '2018', series: 'Super UHD', available: true },
+      { model: '43UP771C0SB', year: '2018', series: 'Super UHD', available: true },      
+      
       
       // 2019 (muestra parcial)
       { model: 'R9', year: '2019', series: 'Rollable', available: true },
@@ -85,6 +96,10 @@ const Buscador = () => {
       { model: 'UM7300', year: '2019', series: 'OLED', available: true },
       { model: 'UM7100', year: '2019', series: 'OLED', available: true },
       { model: 'LM6300', year: '2019', series: 'OLED', available: true },
+      { model: '43LM6300PSB', year: '2019', series: 'Super UHD', available: true },
+      { model: '43LM6370PSB', year: '2019', series: 'Super UHD', available: true },
+      { model: '43UM7100PSA', year: '2019', series: 'Super UHD', available: true },
+      { model: '43UM7300PSA', year: '2019', series: 'Super UHD', available: true },     
       
       // 2020 (muestra parcial)
       { model: 'CX', year: '2020', series: 'OLED', available: true },
@@ -104,6 +119,8 @@ const Buscador = () => {
       { model: 'UN74', year: '2020', series: 'OLED', available: true },
       { model: 'UN73', year: '2020', series: 'OLED', available: true },
       { model: 'UN71', year: '2020', series: 'OLED', available: true },
+      { model: '43UN7100PSA', year: '2020', series: 'Super UHD', available: true },
+      { model: '43UN7300PSC', year: '2020', series: 'Super UHD', available: true },  
       
       // 2021 (muestra parcial)
       { model: 'C1', year: '2021', series: 'OLED', available: true },
@@ -129,6 +146,21 @@ const Buscador = () => {
       { model: 'UP80', year: '2021', series: 'OLED', available: true },
       { model: 'UP77', year: '2021', series: 'OLED', available: true },
       { model: 'UP75', year: '2021', series: 'OLED', available: true },
+      { model: '43UP7500PSF', year: '2021', series: 'Super UHD', available: true },
+      { model: '43UP7700PSB', year: '2021', series: 'Super UHD', available: true },  
+
+      // 2022 (muestra parcial)
+      { model: '43UQ7500PSF', year: '2022', series: 'Super UHD', available: true },  
+      { model: '43UQ801C0SB', year: '2022', series: 'Super UHD', available: true },  
+
+      // 2023 (muestra parcial)
+      { model: '43UR871C0SA', year: '2023', series: 'Super UHD', available: true },
+      { model: '43UR8750PSA', year: '2023', series: 'Super UHD', available: true },  
+
+      //2024 (muestra parcial)
+      { model: '43LR6000PSA', year: '2024', series: 'OLED', available: true },
+      { model: '43NANO80TSA.BWFSLJM', year: '2024', series: 'Super UHD', available: true },
+      { model: '43UT7300PSA.CWFSKH', year: '2024', series: 'Super UHD', available: true },  
     ],
     Samsung: [
       // 2017 (muestra parcial)
